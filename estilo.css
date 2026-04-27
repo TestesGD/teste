@@ -208,6 +208,7 @@ footer:hover {
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .container {
+    width: 85%;
     margin-top: 20px;
     padding: 20px;
   }
@@ -228,7 +229,7 @@ footer:hover {
   }
   .right {
     width: 40%;
-    font-size: 70px; /* diminui o ícone gigante */
+    font-size: 70px;
   }
 
   .caro {
@@ -238,6 +239,10 @@ footer:hover {
 
   .carousel {
     gap: 15px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
   }
 
   .book {
